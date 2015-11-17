@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:layout_weight="1"
+        android:src="@drawable/logo" />
+     
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Go To next screen and hold for 30 sec. It will automatically give you session timeout warning and redirect this page again."
+        android:layout_marginBottom="10dp"
+        android:textSize="22dp" />
+
+     <Button
+        android:id="@+id/buttonNextScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Go To Next Screen" />
+    
+
+</LinearLayout>
